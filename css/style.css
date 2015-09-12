@@ -21,12 +21,13 @@ body {
 	overflow: hidden;
 
 }
-#header h1 {
+#header a {
 	position: relative;
 	z-index: 2;
 	color: #1D4E8D;
-	font-size: 3.5em;
-	line-height: 3.5em;
+	font-size: 4em;
+	line-height: 4em;
+	text-decoration: none;
 }
 
 #header-pic {
@@ -163,15 +164,19 @@ body {
 }
 #draws {
 	display: inline-block;
-	font-size: 4em;
+	font-size: 3em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
 	border: 2px solid #1D4E8D;
-	text-decoration: line-through;
+	color: #1D4E8D;
+	text-decoration: none;
 	margin-right: 1em;
 }
 #venmo {
 	display: inline-block;
-	font-size: 4em;
+	font-size: 3em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
 	border: 2px solid #1D4E8D;
-	text-decoration: line-through;
+	color: #1D4E8D;
+	text-decoration: none;
 }
 
