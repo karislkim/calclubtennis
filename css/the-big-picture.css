@@ -1,0 +1,103 @@
+/*!
+ * Start Bootstrap - The Big Picture (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+html {
+	overflow: scroll;
+}
+body {
+	/*margin-top: 50px;*/
+	margin-bottom: 50px;
+	background: none;
+}
+
+.full {
+  background: url(../images/fence2.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#titlewrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    overflow: scroll;
+}
+.title {
+	font-family: 'Dancing Script', cursive;
+	color: #FFBD17;
+	text-align: center;
+    vertical-align: middle;
+    -webkit-text-stroke: 0.5px #FFBD17;
+}
+nav {
+	background-color: #003057 !important;
+	font-family: Helvetica, serif;
+}
+#cal {
+	font-size: 9em;
+}
+
+#uc {
+	font-size: 4em;
+	color: #FFBD17;
+    -webkit-text-stroke: 0.15px #FFBD17;
+
+}
+.question {
+	font-family: 'Roboto Slab', serif;
+}
+.info {
+	/*text-align: center;*/
+	text-align: left;
+	line-height: 1.5em;
+	margin-top: 20px;
+	vertical-align: middle;
+	font-family: Helvetica, serif;
+	font-size: 1.2em;
+
+}
+
+
+#contactus {
+	font-size: 2em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.centeredinfo {
+	margin-top: 20px;
+	text-align: center;
+}
+img {
+	width: 50%;
+	vertical-align: middle;
+}
+.profpic {
+	width: 30%;
+	margin-bottom: 50px;
+}
+@media only screen and (max-width: 320px) {
+
+#cal { 
+ 	font-size: 2em; 
+ }
+#uc {
+	font-size: 1em;
+}
+
+
+
+}
+
+@media only screen and (max-width: 500px) {
+
+img {
+	width: 100%;
+}
+
+}
