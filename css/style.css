@@ -13,7 +13,9 @@ body {
 }
 
 .full {
-  background: url(../images/fence2.png) no-repeat center center fixed; 
+  background: url(../images/fence2.png) no-repeat center center fixed;
+  height: 100%;
+  width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -81,13 +83,13 @@ img {
 	width: 30%;
 	margin-bottom: 50px;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 720px) {
 
 #cal { 
- 	font-size: 2em; 
+ 	font-size: 5em; 
  }
 #uc {
-	font-size: 1em;
+	font-size: 3em;
 }
 
 
