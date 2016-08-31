@@ -4,7 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 html {
-	overflow: scroll;
 }
 body {
 	/*margin-top: 50px;*/
@@ -61,6 +60,11 @@ nav {
 	vertical-align: middle;
 	font-family: Helvetica, serif;
 	font-size: 1.2em;
+
+}
+
+.info-content {
+	text-align: center;
 
 }
 
