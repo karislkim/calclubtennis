@@ -1,82 +1,580 @@
 <!DOCTYPE html>
-<html class="full" lang="en">
-<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
 <head>
 
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cal Club Tennis</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Information Page for Cal Club Tennis at the University of California, Berkeley">
-    <meta name="keywords" content="Berkeley, Cal, California, club, tennis, sports, rec, recreational, university">
 
-    <title>The Official Website of Cal Club Tennis</title>
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
 
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-
-    <link rel="icon" type="image/png" href="images/cal_logo.png"/>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
 </head>
 
-<body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Home</a>
+<body id="top">
+
+    <!-- header 
+    ================================================== -->
+    <header id="header" class="row">
+
+        <nav id="header-nav-wrap">
+            <ul class="header-main-nav">
+                <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll" href="#roster" title="faq">Roster</a></li>
+                <li><a class="smoothscroll" href="#faq" title="faq">FAQ</a></li>
+                <li><a class="smoothscroll" href="#contact" title="faq">Contact</a></li>
+            </ul>
+
+            <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+
+    </header>
+    <!-- /header -->
+
+    <!-- home
+   ================================================== -->
+    <section id="home" data-parallax="scroll" data-image-src="images/team.jpg" data-natural-width=3000 data-natural-height=2000>
+
+        <div class="overlay"></div>
+        <div class="home-content">
+
+            <div class="row contents">
+                <div class="home-content-left">
+
+                    <h3 data-aos="fade-up">UC Berkeley</h3>
+
+                    <h1 data-aos="fade-up">
+                    California <br>
+                    Club
+                    Tennis
+                </h1>
+
+                </div>
+
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="faq.html">Frequently Asked Questions</a>
-                    </li>
-                    <li>
-                        <a href="info.html">Tryout Info</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+
         </div>
-        <!-- /.container -->
-    </nav>
+        <!-- end home-content -->
 
-    <!-- Page Content -->
-    <div id="titlewrapper" class="container">
-        <!-- <img src="images/calscript.svg"> -->
-        <h1 id="cal" class="title">Cal Club Tennis</h1>
-        <p id="uc" class="title">at UC Berkeley</p>
-    </div>
-    <!-- /.container -->
+        <ul class="home-social-list">
+            <li>
+                <a href="https://www.facebook.com/calclubtennis/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/calclubtennis?lang=en" target="_blank"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/calclubtennis/" target="_blank"><i class="fa fa-instagram"></i></a>
+            </li>
+        </ul>
+        <!-- end home-social-list -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+        <div class="home-scrolldown">
+            <a href="#about" class="scroll-icon smoothscroll">
+                <span>Scroll Down</span>
+                <i class="icon-arrow-right" aria-hidden="true"></i>
+            </a>
+        </div>
+    </section>
+    <!-- end home -->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- about
+    ================================================== -->
+    <section id="about">
+
+        <div class="row about-intro">
+
+            <div class="">
+                <h1 class="intro-header" align="center" data-aos="fade-up">About</h1>
+            </div>
+            <div class="">
+                <p class="lead" data-aos="fade-up">
+                    Hello! This is Cindy Liu and Anthony Busacca, your Cal Club Tennis captains for the 2017-2018 season. We have been on the team since our freshman year and can attest that it has been one of our greatest experiences at Berkeley. We can't wait to meet all of the great players trying out this fall and we're excited for the year we have ahead of us! Go Bears!
+                </p>
+            </div>
+
+        </div>
+
+        <div id="roster" class="row about-intro" style="padding-top: 150px">
+            <div class="">
+                <h1 class="intro-header" align="center" data-aos="fade-up">2017-2018 Roster</h1>
+            </div>
+
+            <div class="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div style="display: table; margin:auto;">
+                                <figure style="display: inline-block;">
+                                    <img src="images/cindy.png" style="width:200px; border-radius: 50%" />
+                                    <figcaption style="width:200px;text-align: center;">Cindy Liu, Captain
+                                        <br> Computer Science
+                                        <br> Senior
+                                    </figcaption>
+                                </figure>
+                                <figure style="display: inline-block;">
+                                    <img src="images/anthony.png" style="width:200px; border-radius: 50%" />
+                                    <figcaption style="width: 200px; text-align: center;">Anthony Busacca, Captain
+                                        <br> Environmental Economics
+                                        <br> Senior
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col" style="display: table; margin:auto;">
+                            <figure style="display: inline-block;">
+                                <img src="images/lena.png" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width:200px;text-align: center;">Helena Lee, Uniform Chair
+                                    <br> Linguistics
+                                    <br> Senior
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/keiko.png" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Keiko Kamei, Finance Chair
+                                    <br> Applied Math
+                                    <br> Junior
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/evan.png" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Evan Sheng, Social Chair
+                                    <br> Computer Science
+                                    <br> Senior
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/mai.png" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Mai Nojima, Social Chair
+                                    <br> Molecular Cell Biology
+                                    <br> Junior
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col" style="display: table; margin:auto;">
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width:200px;text-align: center;">Aiswarya Sankar
+                                    <br> EECS
+                                    <br> Junior
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Akshit Nisha Anish
+                                    <br> MCB - CDB Emphasis
+                                    <br> Junior
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Alice Yao
+                                    <br> Major
+                                    <br> Freshman
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Andy Reddy
+                                    <br> Major
+                                    <br> Freshman
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col" style="display: table; margin:auto;">
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width:200px;text-align: center;">Angela Cai
+                                    <br> Major
+                                    <br> Freshman
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Austin Fan
+                                    <br> Major
+                                    <br> Sophomore
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Axel de Tonnac
+                                    <br> Bio-engineering
+                                    <br> Graduate
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Bill Zhang
+                                    <br> Major
+                                    <br> Freshman
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="col" style="display: table; margin:auto;">
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width:200px;text-align: center;">Dan Rozovsky
+                                    <br> Major
+                                    <br> Senior
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Danielle Kalcic
+                                    <br> Major
+                                    <br> Freshman
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">David Wang
+                                    <br> Major
+                                    <br> Sophomore
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Gabby Shvartsman
+                                    <br> Major
+                                    <br> Sophomore
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="col" style="display: table; margin:auto;">
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width:200px;text-align: center;">Henry Smith
+                                    <br> Major
+                                    <br> Senior
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Islay Fossett
+                                    <br> Economics
+                                    <br> Senior
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Jasmine Roberts
+                                    <br> Molecular Cell Biology
+                                    <br> Sophomore
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Jasper Murphy
+                                    <br> Major
+                                    <br> Freshman
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="col" style="display: table; margin:auto;">
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width:200px;text-align: center;">Jess Zeynel
+                                    <br> Mollecular Cell Biology
+                                    <br> Freshman
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Jonathan Duan
+                                    <br> Major
+                                    <br> Senior
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Josh Rubin
+                                    <br> Major
+                                    <br> Junior
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Kathleen Qin
+                                    <br> Undeclared
+                                    <br> Sophomore
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="col" style="display: table; margin:auto;">
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width:200px;text-align: center;">Kristine Pau
+                                    <br> Major
+                                    <br> Freshman
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Lachlan Mackay
+                                    <br> Major
+                                    <br> Senior
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Lauren McCormack
+                                    <br> Major
+                                    <br> Freshman
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Lucas Bandarkar
+                                    <br> Statistics
+                                    <br> Freshman
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="col" style="display: table; margin:auto;">
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width:200px;text-align: center;">Marcus Pasimio
+                                    <br> Political Science/Econ
+                                    <br> Freshman
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Marianna Alevra
+                                    <br> Major
+                                    <br> Junior
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Max Yun
+                                    <br> Undeclared
+                                    <br> Sophomore
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Maylin van Cleeff
+                                    <br> Major
+                                    <br> Freshman
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="col" style="display: table; margin:auto;">
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width:200px;text-align: center;">Megan Scannell
+                                    <br> Major
+                                    <br> Junior
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Michelle Maddox
+                                    <br> Major
+                                    <br> Sophomore
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Mike Wang
+                                    <br> Computer Science
+                                    <br> Junior
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Millet Marin Lackiz
+                                    <br> Applied Mathematics
+                                    <br> Junior
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="col" style="display: table; margin:auto;">
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width:200px;text-align: center;">Monica Ballus
+                                    <br> Major
+                                    <br> Year
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Naomichi Yamamoto
+                                    <br> Major
+                                    <br> Senior
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Nikhil Nagpal
+                                    <br> Major
+                                    <br> Junior
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Paula Alexe
+                                    <br> Major
+                                    <br> Year
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="col" style="display: table; margin:auto;">
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width:200px;text-align: center;">Rohan Lageweg
+                                    <br> EECS/MSE
+                                    <br> Junior
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Ryan Dehmoubed
+                                    <br> Energy Engineering
+                                    <br> Freshman
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Sabrina Woll
+                                    <br> Major
+                                    <br> Freshman
+                                </figcaption>
+                            </figure>
+                            <figure style="display: inline-block;">
+                                <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                <figcaption style="width: 200px; text-align: center;">Samantha Lai
+                                    <br> CS and MCB
+                                    <br> Senior
+                                </figcaption>
+                            </figure>
+
+                            <div class="col" style="display: table; margin:auto;">
+                                <figure style="display: inline-block;">
+                                    <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                    <figcaption style="width:200px;text-align: center;">Shalini Haupt
+                                        <br> Major
+                                        <br> Freshman
+                                    </figcaption>
+                                </figure>
+                                <figure style="display: inline-block;">
+                                    <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                    <figcaption style="width: 200px; text-align: center;">Sherry Yang
+                                        <br> Major
+                                        <br> Junior
+                                    </figcaption>
+                                </figure>
+                                <figure style="display: inline-block;">
+                                    <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                    <figcaption style="width: 200px; text-align: center;">Steven Tong
+                                        <br> CS/Economics
+                                        <br> Freshman
+                                    </figcaption>
+                                </figure>
+                                <figure style="display: inline-block;">
+                                    <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                    <figcaption style="width: 200px; text-align: center;">Xingjian (Jessie) Han
+                                        <br> Major
+                                        <br> Junior
+                                    </figcaption>
+                                </figure>
+
+                            </div>
+
+                            <div class="col" style="display: table; margin:auto;">
+                                <figure style="display: inline-block;">
+                                    <img src="images/meeseeks.jpg" style="width:200px; border-radius: 50%" />
+                                    <figcaption style="width: 200px; text-align: center;">Zoe Grenville
+                                        <br> Major
+                                        <br> Junior
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="faq" class="row about-intro" style="padding-top: 150px">
+            <div class="">
+                <h1 class="intro-header" align="center" data-aos="fade-up">Frequently Asked Questions</h1>
+            </div>
+            <div class="">
+                <h3 class="question">When and where are tryouts?</h3>
+                <p class="info">Our annual tryout tournament is usually held on a weekend in early September. Make sure to stop by our booth at Caltopia and check back here for updates!</p>
+                <h3 class="question">How many people are allowed on the team?</h3>
+                <p class="info">There is no minimum or maximum number, and it varies from year to year. We take individuals based off of their overall fit with the team as well as talent level, so there are no limitations.</p>
+                <h3 class="question">How much time do I have to commit to the team?</h3>
+                <p class="info">Club Tennis is all about putting in as much as you want to get out of it! Many activities are voluntary and flexible. We understand that your first priority is school, so there's no hard feelings if you can't make certain events. We have optional practices twice a week on Tuesday and Thursday nights from 7-9pm. Although these practices aren't mandatory, it is important to know that our captains are constantly evaluating the contributions each individual makes to the team. Also, regional and national tournaments require members to have played a minimum amount of previous tournaments to qualify, so please keep that in mind.</p>
+                <h3 class="question">Oh no! I didn't make the team! What now?</h3>
+                <p class="info">Don't worry, there's always next year! Each year we have a huge number of crazy talented people come out, which means our decision is always extremely tough. In the meantime, you should definitely consider joining Cal's intramural tennis club, Tennis at Cal. It's a great group of people for all levels of tennis who just love to play.</p>
+            </div>
+
+        </div>
+        <!-- <div id="contact" class="row about-intro" style="padding-top: 150px">
+            <div class="col-four">
+                <h1 class="intro-header" data-aos="fade-up">Contact Us</h1>
+            </div>
+            <div class="col-eight">
+            <h3 class="question">Q: When and where are tryouts?</h3>
+                <p class="info">A: Our annual tryout tournament is usually held on a weekend in early September. Make sure to stop by our booth at Caltopia and check back here for updates!</p>
+                <h3 class="question">Q: How many people are allowed on the team?</h3>
+                <p class="info">A: There is no minimum or maximum number, and it varies from year to year. We take individuals based off of their overall fit with the team as well as talent level, so there are no limitations.</p>
+                <h3 class="question">Q: How much time do I have to commit to the team?</h3>
+                <p class="info">A: Club Tennis is all about putting in as much as you want to get out of it! Many activities are voluntary and flexible. We understand that your first priority is school, so there's no hard feelings if you can't make certain events. We have optional practices twice a week on Tuesday and Thursday nights from 7-9pm. Although these practices aren't mandatory, it is important to know that our captains are constantly evaluating the contributions each individual makes to the team. Also, regional and national tournaments require members to have played a minimum amount of previous tournaments to qualify, so please keep that in mind.</p>
+                <h3 class="question">Q: Oh no! I didn't make the team! What now?</h3>
+                <p class="info">A: Don't worry, there's always next year! Each year we have a huge number of crazy talented people come out, which means our decision is always extremely tough. In the meantime, you should definitely consider joining Cal's intramural tennis club, Tennis at Cal. It's a great group of people for all levels of tennis who just love to play.</p>
+            </div>                           
+        </div> -->
+        </div>
+        <!-- end about-how -->
+
+    </section>
+    <!-- end about -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
