@@ -35,6 +35,23 @@
 	  	});
 	};
 
+	var header = document.getElementById("header");
+	var header_nav = document.getElementById("header-nav-wrap");
+	var prevScrollpos = window.pageYOffset;
+
+	window.onscroll = function() {
+	  var currentScrollPos = window.pageYOffset;
+	  if (prevScrollpos > currentScrollPos) {
+	    header.style.top = "0";
+	    header_nav.style.top = "0";
+	  } else {
+	    header.style.top = "-50px";
+	    header_nav.style.top = "-50px";
+
+	  }
+	  prevScrollpos = currentScrollPos;
+	}
+
 
 	/* Mobile Menu
 	 * ---------------------------------------------------- */ 
