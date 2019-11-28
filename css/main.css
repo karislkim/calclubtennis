@@ -1182,7 +1182,7 @@ h1.intro-header::after {
   display: none;
   position: fixed;
   right: 32px;
-  top: 15px;
+  top: 5px;
   height: 42px;
   width: 42px;
   line-height: 42px;
@@ -2074,7 +2074,28 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   }
 }
 
+/* ===================================================================
+ *  history
+ *
+ * ------------------------------------------------------------------- */
 
+#history {
+  background: white;
+}
+
+.flex-left {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+
+.flex-text-left {
+  align-self: center;
+}
+
+.caption-left {
+  margin-right: 15%;
+}
 
 /* ===================================================================
  *  12. pricing - (_layout.scss)
