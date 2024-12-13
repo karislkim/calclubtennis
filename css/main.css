@@ -2083,7 +2083,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   background: white;
 }
 
-.flex-left {
+/* .flex-left {
   display: flex;
   flex-direction: row;
   margin-bottom: 60px;
@@ -2095,7 +2095,26 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .caption-left {
   margin-right: 15%;
+} */
+
+.flex-left {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 60px;
 }
+
+.flex-text-left {
+  flex: 1; 
+  margin-right: 15%;
+}
+
+.flex-left img {
+  width: 450px;
+  height: auto; /* Maintains the image's aspect ratio */
+  object-fit: cover; /* Ensures the image fills its space without distortion */
+  flex-shrink: 0; /* Prevents the image from resizing if the container shrinks */
+} */
 
 /* ===================================================================
  *  12. pricing - (_layout.scss)
